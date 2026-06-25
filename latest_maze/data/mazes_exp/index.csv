@@ -1,0 +1,10 @@
+name,sizex,sizey,seed,difficulty,start,goal,path_length,junctions,json_path,img_path
+maze_10x10_medium_00,10,10,0,medium,"[0, 0]","[8, 5]",81,9,data/mazes_exp/10x10/maze_10x10_medium_00.json,
+maze_10x10_high_00,10,10,1,high,"[0, 0]","[7, 5]",70,13,data/mazes_exp/10x10/maze_10x10_high_00.json,
+maze_10x10_medium_01,10,10,2,medium,"[0, 0]","[5, 9]",84,9,data/mazes_exp/10x10/maze_10x10_medium_01.json,
+maze_10x10_medium_02,10,10,3,medium,"[0, 0]","[2, 7]",81,11,data/mazes_exp/10x10/maze_10x10_medium_02.json,
+maze_10x10_low_00,10,10,5,low,"[0, 0]","[9, 1]",68,8,data/mazes_exp/10x10/maze_10x10_low_00.json,
+maze_10x10_low_01,10,10,6,low,"[0, 0]","[3, 6]",73,6,data/mazes_exp/10x10/maze_10x10_low_01.json,
+maze_10x10_high_01,10,10,12,high,"[0, 0]","[6, 0]",62,14,data/mazes_exp/10x10/maze_10x10_high_01.json,
+maze_10x10_low_02,10,10,16,low,"[0, 0]","[2, 8]",56,7,data/mazes_exp/10x10/maze_10x10_low_02.json,
+maze_10x10_high_02,10,10,25,high,"[0, 0]","[7, 8]",77,12,data/mazes_exp/10x10/maze_10x10_high_02.json,
