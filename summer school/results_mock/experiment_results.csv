@@ -1,3 +1,0 @@
-experiment_id,difficulty,sizex,sizey,seed,method,agent_count,start,goal,success,valid_steps,optimal,path_length,shortest_length,length_ratio,error,cells,dead_ends,branch_cells,solution_turns,calls,prompt_tokens,completion_tokens,total_tokens,generation_time_sec,final_moves,notes
-easy_3x3_seed1_single_n1,easy,3,3,1,single,1,"[0, 0]","[1, 1]",0,1,0,0,8,,path does not end at goal,9,1,0,4,1,135,7,142,0.0002,,
-easy_3x3_seed1_majority_vote_n3,easy,3,3,1,majority_vote,3,"[0, 0]","[1, 1]",0,1,0,0,8,,path does not end at goal,9,1,0,4,3,409,21,430,0.0005,,
