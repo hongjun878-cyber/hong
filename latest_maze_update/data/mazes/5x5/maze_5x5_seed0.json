@@ -1,0 +1,278 @@
+{
+  "type": "maze",
+  "sizex": 5,
+  "sizey": 5,
+  "seed": 0,
+  "start": [
+    0,
+    0
+  ],
+  "goal": [
+    1,
+    1
+  ],
+  "path_length": 16,
+  "junctions": 4,
+  "grid": [
+    [
+      {
+        "x": 0,
+        "y": 0,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "walls": {
+          "left": 0,
+          "top": 0,
+          "right": 1,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "walls": {
+          "left": 0,
+          "top": 0,
+          "right": 1,
+          "bottom": 1
+        }
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 1,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 1,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "walls": {
+          "left": 1,
+          "top": 1,
+          "right": 1,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 1,
+          "bottom": 0
+        }
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 2,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "walls": {
+          "left": 0,
+          "top": 0,
+          "right": 1,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "walls": {
+          "left": 1,
+          "top": 1,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "walls": {
+          "left": 0,
+          "top": 0,
+          "right": 1,
+          "bottom": 0
+        }
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 3,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 1,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 1,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "walls": {
+          "left": 1,
+          "top": 0,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 1,
+          "bottom": 0
+        }
+      }
+    ],
+    [
+      {
+        "x": 0,
+        "y": 4,
+        "walls": {
+          "left": 1,
+          "top": 1,
+          "right": 1,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "walls": {
+          "left": 1,
+          "top": 1,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 1
+        }
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 0,
+          "bottom": 0
+        }
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "walls": {
+          "left": 0,
+          "top": 1,
+          "right": 1,
+          "bottom": 1
+        }
+      }
+    ]
+  ]
+}
