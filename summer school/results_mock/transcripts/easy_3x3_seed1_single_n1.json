@@ -1,0 +1,177 @@
+{
+  "experiment_id": "easy_3x3_seed1_single_n1",
+  "maze": {
+    "sizex": 3,
+    "sizey": 3,
+    "seed": 1,
+    "walls": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      1,
+      1
+    ],
+    "solution_path": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "difficulty_name": "easy"
+  },
+  "consensus": {
+    "method": "single",
+    "agent_count": 1,
+    "final_candidate": {
+      "moves": "",
+      "path": [
+        [
+          0,
+          0
+        ]
+      ],
+      "confidence": 0.1
+    },
+    "cost": {
+      "calls": 1,
+      "prompt_tokens": 135,
+      "completion_tokens": 7,
+      "total_tokens": 142,
+      "generation_time_sec": 0.00021219998598098755
+    },
+    "answers": [
+      {
+        "agent_id": "Agent-1",
+        "round_name": "single",
+        "raw_text": "{\"moves\": \"\", \"path\": [[0, 0]], \"confidence\": 0.1}",
+        "candidate": {
+          "moves": "",
+          "path": [
+            [
+              0,
+              0
+            ]
+          ],
+          "confidence": 0.1
+        },
+        "prompt_tokens": 135,
+        "completion_tokens": 7,
+        "total_tokens": 142,
+        "elapsed_sec": 0.00021219998598098755
+      }
+    ],
+    "judge_answer": null,
+    "notes": ""
+  },
+  "evaluation": {
+    "valid_steps": true,
+    "success": false,
+    "optimal": false,
+    "path_length": 0,
+    "shortest_length": 8,
+    "length_ratio": null,
+    "error": "path does not end at goal",
+    "moves": "",
+    "path": [
+      [
+        0,
+        0
+      ]
+    ]
+  }
+}

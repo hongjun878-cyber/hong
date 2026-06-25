@@ -1,0 +1,215 @@
+{
+  "experiment_id": "easy_3x3_seed1_majority_vote_n3",
+  "maze": {
+    "sizex": 3,
+    "sizey": 3,
+    "seed": 1,
+    "walls": [
+      [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ],
+      [
+        [
+          1,
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          0
+        ]
+      ],
+      [
+        [
+          1,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          0
+        ]
+      ]
+    ],
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      1,
+      1
+    ],
+    "solution_path": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "difficulty_name": "easy"
+  },
+  "consensus": {
+    "method": "majority_vote",
+    "agent_count": 3,
+    "final_candidate": {
+      "moves": "",
+      "path": [
+        [
+          0,
+          0
+        ]
+      ],
+      "confidence": null
+    },
+    "cost": {
+      "calls": 3,
+      "prompt_tokens": 409,
+      "completion_tokens": 21,
+      "total_tokens": 430,
+      "generation_time_sec": 0.00045560000580735505
+    },
+    "answers": [
+      {
+        "agent_id": "Agent-1",
+        "round_name": "independent",
+        "raw_text": "{\"moves\": \"\", \"path\": [[0, 0]], \"confidence\": 0.1}",
+        "candidate": {
+          "moves": "",
+          "path": [
+            [
+              0,
+              0
+            ]
+          ],
+          "confidence": 0.1
+        },
+        "prompt_tokens": 135,
+        "completion_tokens": 7,
+        "total_tokens": 142,
+        "elapsed_sec": 0.0001286999904550612
+      },
+      {
+        "agent_id": "Agent-2",
+        "round_name": "independent",
+        "raw_text": "{\"moves\": \"\", \"path\": [[0, 0]], \"confidence\": 0.1}",
+        "candidate": {
+          "moves": "",
+          "path": [
+            [
+              0,
+              0
+            ]
+          ],
+          "confidence": 0.1
+        },
+        "prompt_tokens": 137,
+        "completion_tokens": 7,
+        "total_tokens": 144,
+        "elapsed_sec": 0.00021009999909438193
+      },
+      {
+        "agent_id": "Agent-3",
+        "round_name": "independent",
+        "raw_text": "{\"moves\": \"\", \"path\": [[0, 0]], \"confidence\": 0.1}",
+        "candidate": {
+          "moves": "",
+          "path": [
+            [
+              0,
+              0
+            ]
+          ],
+          "confidence": 0.1
+        },
+        "prompt_tokens": 137,
+        "completion_tokens": 7,
+        "total_tokens": 144,
+        "elapsed_sec": 0.00011680001625791192
+      }
+    ],
+    "judge_answer": null,
+    "notes": ""
+  },
+  "evaluation": {
+    "valid_steps": true,
+    "success": false,
+    "optimal": false,
+    "path_length": 0,
+    "shortest_length": 8,
+    "length_ratio": null,
+    "error": "path does not end at goal",
+    "moves": "",
+    "path": [
+      [
+        0,
+        0
+      ]
+    ]
+  }
+}
