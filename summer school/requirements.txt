@@ -1,5 +1,0 @@
-transformers
-accelerate
-pandas
-matplotlib
-bitsandbytes
