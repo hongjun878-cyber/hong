@@ -1,0 +1,78 @@
+[
+  {
+    "name": "maze_5x5_seed0",
+    "sizex": 5,
+    "sizey": 5,
+    "seed": 0,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      1,
+      1
+    ],
+    "path_length": 16,
+    "junctions": 4,
+    "json_path": "data/mazes/5x5/maze_5x5_seed0.json",
+    "img_path": "",
+    "gen_time_s": 0.0002
+  },
+  {
+    "name": "maze_5x5_seed1",
+    "sizex": 5,
+    "sizey": 5,
+    "seed": 1,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      3,
+      1
+    ],
+    "path_length": 20,
+    "junctions": 2,
+    "json_path": "data/mazes/5x5/maze_5x5_seed1.json",
+    "img_path": "",
+    "gen_time_s": 0.0003
+  },
+  {
+    "name": "maze_10x10_seed0",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 0,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      8,
+      5
+    ],
+    "path_length": 81,
+    "junctions": 9,
+    "json_path": "data/mazes/10x10/maze_10x10_seed0.json",
+    "img_path": "",
+    "gen_time_s": 0.0004
+  },
+  {
+    "name": "maze_10x10_seed1",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 1,
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      7,
+      5
+    ],
+    "path_length": 70,
+    "junctions": 13,
+    "json_path": "data/mazes/10x10/maze_10x10_seed1.json",
+    "img_path": "",
+    "gen_time_s": 0.0004
+  }
+]
