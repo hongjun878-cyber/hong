@@ -1,0 +1,5 @@
+name,sizex,sizey,seed,start,goal,path_length,junctions,json_path,img_path,gen_time_s
+maze_5x5_seed0,5,5,0,"[0, 0]","[1, 1]",16,4,data/mazes/5x5/maze_5x5_seed0.json,,0.0002
+maze_5x5_seed1,5,5,1,"[0, 0]","[3, 1]",20,2,data/mazes/5x5/maze_5x5_seed1.json,,0.0003
+maze_10x10_seed0,10,10,0,"[0, 0]","[8, 5]",81,9,data/mazes/10x10/maze_10x10_seed0.json,,0.0004
+maze_10x10_seed1,10,10,1,"[0, 0]","[7, 5]",70,13,data/mazes/10x10/maze_10x10_seed1.json,,0.0004

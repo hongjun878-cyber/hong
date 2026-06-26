@@ -1,0 +1,116 @@
+[
+  {
+    "name": "maze_10x10_high_00",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 1,
+    "difficulty": "high",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      7,
+      5
+    ],
+    "path_length": 70,
+    "junctions": 13,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_high_00.json",
+    "img_path": ""
+  },
+  {
+    "name": "maze_10x10_low_00",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 5,
+    "difficulty": "low",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      9,
+      1
+    ],
+    "path_length": 68,
+    "junctions": 8,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_low_00.json",
+    "img_path": ""
+  },
+  {
+    "name": "maze_10x10_low_01",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 6,
+    "difficulty": "low",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      3,
+      6
+    ],
+    "path_length": 73,
+    "junctions": 6,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_low_01.json",
+    "img_path": ""
+  },
+  {
+    "name": "maze_10x10_high_01",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 12,
+    "difficulty": "high",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      6,
+      0
+    ],
+    "path_length": 62,
+    "junctions": 14,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_high_01.json",
+    "img_path": ""
+  },
+  {
+    "name": "maze_10x10_low_02",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 16,
+    "difficulty": "low",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      2,
+      8
+    ],
+    "path_length": 56,
+    "junctions": 7,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_low_02.json",
+    "img_path": ""
+  },
+  {
+    "name": "maze_10x10_high_02",
+    "sizex": 10,
+    "sizey": 10,
+    "seed": 25,
+    "difficulty": "high",
+    "start": [
+      0,
+      0
+    ],
+    "goal": [
+      7,
+      8
+    ],
+    "path_length": 77,
+    "junctions": 12,
+    "json_path": "data/mazes_exp/10x10/maze_10x10_high_02.json",
+    "img_path": ""
+  }
+]
